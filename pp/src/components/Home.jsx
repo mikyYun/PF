@@ -1,12 +1,12 @@
 import Nav from "./Nav";
 
 const Home = () => {
+  console.log("HOME LOADED")
+
   return (
     <>
       <Nav />
-      <div>
-        test
-      </div>
+      <div>div</div>
     </>
   );
 };
