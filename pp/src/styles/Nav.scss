@@ -1,0 +1,10 @@
+@use 'variables' as V;
+
+.nav_toolbar{
+  display: flex;
+  justify-content: space-between;
+  // background-color: V.$primaryDark;
+  :hover{
+    background-color: V.$primaryDark;
+  }
+}
